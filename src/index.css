@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--color-text-muted: #c5bdcf;
+	--color-text: #f5f2fa;
+	--color-surface: #211c2b;
+	--color-border: #393241;
+	--color-accent: #c4a5f5;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	background-color: #14121b;
+	color: var(--color-text);
+	font-family: system-ui, sans-serif;
+	line-height: 1.5;
+}
+
+button,
+input {
+	font: inherit;
+}
